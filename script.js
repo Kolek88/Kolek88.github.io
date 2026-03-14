@@ -99,4 +99,4 @@ function loadProjects() {
     });
 }
 
-window.onload = loadProjects;
+loadProjects();
