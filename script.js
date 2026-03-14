@@ -8,7 +8,7 @@ const projects = [
         ],
         readmeLink: "https://github.com/Kolek88/BursaStockTracker/blob/main/README.md",      
         demoLink: "https://bursastocktracker-klhqfrbndhfvcvckxnc3f3.streamlit.app/",        
-        mediaLink: "bursa-media.html" // I also updated this to your new media page!
+        mediaLink: "#" 
     },
     {
         title: "Healthcare Analytics Dashboard",

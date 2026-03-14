@@ -95,13 +95,31 @@ nav a:hover {
 
 /* Generated Project Cards */
 .project-card {
+    background: white; /* This makes the card visible! */
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border-top: 4px solid #3498db;
+    
+    /* These keep the buttons at the bottom */
     display: flex;
     flex-direction: column;
 }
 
+.project-card h3 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
 .project-card ul {
-    flex-grow: 1; 
+    padding-left: 1.2rem;
     margin-bottom: 1.5rem;
+    flex-grow: 1; /* Pushes the buttons to the bottom */
+}
+
+.project-card li {
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
 }
 
 /* New Button Styles for Cards */
@@ -111,6 +129,8 @@ nav a:hover {
     margin-top: auto;
     flex-wrap: wrap; 
 }
+
+/* ... keep the rest of your button styles the same below this ... */
 
 .btn-card {
     text-decoration: none;
