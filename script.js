@@ -6,9 +6,9 @@ const projects = [
             "The project uses Python, Streamlit, and the yfinance library to fetch and display real-time market data",
             "Uses a PostgreSQL database to securely store, extract, and manage financial records"
         ],
-        readmeLink: "#https://github.com/Kolek88/BursaStockTracker/blob/main/README.md",      
-        demoLink: "#https://bursastocktracker-klhqfrbndhfvcvckxnc3f3.streamlit.app/",        
-        mediaLink: "project-template.html" // Placeholder link for media (e.g., images, videos)
+        readmeLink: "https://github.com/Kolek88/BursaStockTracker/blob/main/README.md",      
+        demoLink: "https://bursastocktracker-klhqfrbndhfvcvckxnc3f3.streamlit.app/",        
+        mediaLink: "bursa-media.html" // I also updated this to your new media page!
     },
     {
         title: "Healthcare Analytics Dashboard",
