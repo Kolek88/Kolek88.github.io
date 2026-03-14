@@ -41,21 +41,18 @@ const projects = [
     }
 ];
 
-// Function to load projects into the HTML
+// Function to load projects HTML grid
 function loadProjects() {
-    const container = document.getElementById("project-container");
+    const container = document.getElementById("projects-grid"); // Updated to match your HTML
 
     projects.forEach(project => {
-        // Create the card container
         const card = document.createElement("div");
         card.className = "project-card";
 
-        // Create the title
         const title = document.createElement("h3");
         title.textContent = project.title;
         card.appendChild(title);
 
-        // Create the bullet points list
         const ul = document.createElement("ul");
         project.bullets.forEach(bullet => {
             const li = document.createElement("li");
@@ -64,10 +61,8 @@ function loadProjects() {
         });
         card.appendChild(ul);
 
-        // Add the card to the main container
         container.appendChild(card);
     });
 }
 
-// Run the function when the page loads
 window.onload = loadProjects;
